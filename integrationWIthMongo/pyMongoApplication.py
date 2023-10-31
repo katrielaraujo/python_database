@@ -2,7 +2,7 @@ import pprint
 
 import pymongo as pyM
 
-client = pyM.MongoClient("mongodb+srv://pymongo:katriel318@cluster1.ercrt8d.mongodb.net/?retryWrites=true&w=majority")
+client = pyM.MongoClient("mongodb+srv://pymongo:<passwd>@cluster1.ercrt8d.mongodb.net/?retryWrites=true&w=majority")
 
 db = client.test
 collection = db.test_collection
